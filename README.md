@@ -1,3 +1,8 @@
+# 2020-08-17
+1. git clone from 'https://github.com/klaytn/kaikas-tutorial.git`
+2. loacalhost 에서 접근 가능하게 수정
+3. 메뉴 일부 한글화
+
 # Kaikas Tutorial
 
 > [tutorial.kaikas.io](tutorial.kaikas.io)
