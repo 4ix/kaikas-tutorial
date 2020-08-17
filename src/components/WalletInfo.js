@@ -1,19 +1,19 @@
-import React from 'react'
-import { KLAY_FAUCET } from 'constants/url'
+import React from "react";
+import { KLAY_FAUCET } from "constants/url";
 
-import './WalletInfo.scss'
+import "./WalletInfo.scss";
 
 const WalletInfo = ({ address, balance }) => {
   return (
     <div className="WalletInfo">
-      <h2 className="WalletInfo__title">Wallet Information</h2>
+      <h2 className="WalletInfo__title">지갑 정보</h2>
       <div className="WalletInfo__infoBox">
         <div className="WalletInfo__info">
-          <span className="WalletInfo__label">Wallet Address</span>
-          {address || 'Login with Kaikas :)'}
+          <span className="WalletInfo__label">지갑 주소</span>
+          {address || "카이카스로 로그인 해 주세요 :)"}
         </div>
         <div className="WalletInfo__info">
-          <span className="WalletInfo__label">Balance</span>
+          <span className="WalletInfo__label">잔액</span>
           <span className="WalletInfo__balance">{balance}</span>
           <span className="WalletInfo__unit">KLAY</span>
         </div>
@@ -26,11 +26,11 @@ const WalletInfo = ({ address, balance }) => {
           target="_blank"
           rel="noreferrer noopener"
         >
-        Run Klay Faucet
+          Run Klay Faucet
         </a>
       </p>
     </div>
-  )
-}
+  );
+};
 
-export default WalletInfo
+export default WalletInfo;
